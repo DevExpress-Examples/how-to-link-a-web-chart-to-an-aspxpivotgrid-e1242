@@ -6,6 +6,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to link a web chart to an ASPxPivotGrid
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e1242/)**
+<!-- run online end -->
 
 
 <p>This tutorial demonstrates how you can link <a href="http://documentation.devexpress.com/#XtraCharts/clsDevExpressXtraChartsWebWebChartControltopic"><u>WebChartControl</u></a> to <a href="http://documentation.devexpress.com/#AspNet/clsDevExpressWebASPxPivotGridASPxPivotGridtopic"><u>ASPxPivotGrid</u></a>, which is done entirely at design time.</p><p>Note that in order to synchronize both controls when the ASPxPivotGrid layout is changed, it is necessary to set their <strong>EnableCallbacks</strong> property to <i>False</i>. It is possible to place both controls inside the <strong>UpdatePanel</strong> to avoid the entire page update during a postback. Please refer to the <a href="http://msdn.microsoft.com/en-us/library/system.web.ui.updatepanel.aspx"><u>UpdatePanel Class</u></a> help topic for additional information about this control functionality. <br />
